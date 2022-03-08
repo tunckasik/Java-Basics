@@ -4,7 +4,7 @@ package com.tunckasik.math;
 public class ClassMath implements IntMath {
 
     @Override
-    public void sum(int a, int b) {
+    public void total (int a, int b) {
         
         System.out.println("Result of total : " + (a + b));
     }
@@ -15,12 +15,12 @@ public class ClassMath implements IntMath {
     }
 
     @Override
-    public void times(int a, int b) {
+    public void multiplication (int a, int b) {
         System.out.println("Result of multiplication : " + (a * b));
     }
 
     @Override
-    public void divide(int a, int b) {
+    public void division(int a, int b) {
         System.out.println("Result of division : " + ((double)a / b));
     }
     
