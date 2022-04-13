@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
         
-        Scanner scanner = new Scanner(System.in);
+        Scanner scanner1 = new Scanner(System.in);
         
          
          System.out.println("Lutfen yasinizi girin: ");
@@ -25,12 +25,12 @@ public class Main {
         
         System.out.println("Girdiniz yazi;"
                 + ""); */
-       scanner.nextLine(); //Dummy deniyor buna ilave inputlar icin kullaniliyor
+       //scanner1.nextLine(); //Dummy deniyor buna ilave inputlar icin kullaniliyor
          
-        if (scanner.hasNextInt()){
+        if (scanner1.hasNextInt()){
            
             
-            int sayi = scanner.nextInt();
+            int sayi = scanner1.nextInt();
             System.out.println("Yasiniz: " + sayi);
         }
         else { 
@@ -42,13 +42,13 @@ public class Main {
         }
         
         System.out.println("Lutfen isminizi girin: ");
-        scanner.nextLine();
-        if (!scanner.hasNextLine()){
+        scanner1.nextLine();
+        if (!scanner1.hasNextLine()){
             System.out.println("Lutfen yazi karakterini kullaniniz..!");
         }
             
             else {
-            String isim = scanner.nextLine();
+            String isim = scanner1.nextLine();
             
             System.out.println("Isminiz: " + isim);
         }

@@ -19,9 +19,9 @@ public class KB_Main {
        int v = 5;double d = 5d;float c = 4.2f;
         
         //HATA 4; KOSEYE YAKIN YAZMAK TAVSIYE EDILMIYOR, ICERLERE DOGRU AKTARARAK YAZMAK FAYDALI OLACAKTIR.
-    int v = 5;
-    double d = 5d;
-    float c = 4.2f;
+    int g = 5;
+    double f = 5d;
+    float k = 4.2f;
         
     }
     //Main kod blogunun disinda olunca calismaz!!
